@@ -33,12 +33,46 @@ namespace IIS.CZN
     public class ТрудоваяКнижка : ICSSoft.STORMNET.DataObject
     {
         
+        private string fТрудоваяКнижка;
+        
         private IIS.CZN.Личность fЛичность;
         
         //  *** Start programmer edit section *** (ТрудоваяКнижка CustomMembers)
 
         //  *** End programmer edit section *** (ТрудоваяКнижка CustomMembers)
 
+        
+        /// <summary>
+        /// ТрудоваяКнижка.
+        /// </summary>
+        //  *** Start programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка CustomAttributes)
+
+        //  *** End programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка CustomAttributes)
+        [StrLen(255)]
+        public virtual string ТрудоваяКнижка
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Get start)
+
+                //  *** End programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Get start)
+                string result = this.fТрудоваяКнижка;
+                //  *** Start programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Get end)
+
+                //  *** End programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Set start)
+
+                //  *** End programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Set start)
+                this.fТрудоваяКнижка = value;
+                //  *** Start programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Set end)
+
+                //  *** End programmer edit section *** (ТрудоваяКнижка.ТрудоваяКнижка Set end)
+            }
+        }
         
         /// <summary>
         /// мастеровая ссылка на шапку IIS.CZN.Личность.

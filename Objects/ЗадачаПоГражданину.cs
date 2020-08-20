@@ -33,12 +33,46 @@ namespace IIS.CZN
     public class ЗадачаПоГражданину : ICSSoft.STORMNET.DataObject
     {
         
+        private string fЗадача;
+        
         private IIS.CZN.КарточкаГражданина fКарточкаГКарточкаГражданинаражданина;
         
         //  *** Start programmer edit section *** (ЗадачаПоГражданину CustomMembers)
 
         //  *** End programmer edit section *** (ЗадачаПоГражданину CustomMembers)
 
+        
+        /// <summary>
+        /// Задача.
+        /// </summary>
+        //  *** Start programmer edit section *** (ЗадачаПоГражданину.Задача CustomAttributes)
+
+        //  *** End programmer edit section *** (ЗадачаПоГражданину.Задача CustomAttributes)
+        [StrLen(255)]
+        public virtual string Задача
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Задача Get start)
+
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.Задача Get start)
+                string result = this.fЗадача;
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Задача Get end)
+
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.Задача Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Задача Set start)
+
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.Задача Set start)
+                this.fЗадача = value;
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Задача Set end)
+
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.Задача Set end)
+            }
+        }
         
         /// <summary>
         /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.

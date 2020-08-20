@@ -33,12 +33,46 @@ namespace IIS.CZN
     public class НаправлениеГражданина : ICSSoft.STORMNET.DataObject
     {
         
+        private string fНаправление;
+        
         private IIS.CZN.КарточкаГражданина fКарточкаГражданина;
         
         //  *** Start programmer edit section *** (НаправлениеГражданина CustomMembers)
 
         //  *** End programmer edit section *** (НаправлениеГражданина CustomMembers)
 
+        
+        /// <summary>
+        /// Направление.
+        /// </summary>
+        //  *** Start programmer edit section *** (НаправлениеГражданина.Направление CustomAttributes)
+
+        //  *** End programmer edit section *** (НаправлениеГражданина.Направление CustomAttributes)
+        [StrLen(255)]
+        public virtual string Направление
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (НаправлениеГражданина.Направление Get start)
+
+                //  *** End programmer edit section *** (НаправлениеГражданина.Направление Get start)
+                string result = this.fНаправление;
+                //  *** Start programmer edit section *** (НаправлениеГражданина.Направление Get end)
+
+                //  *** End programmer edit section *** (НаправлениеГражданина.Направление Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (НаправлениеГражданина.Направление Set start)
+
+                //  *** End programmer edit section *** (НаправлениеГражданина.Направление Set start)
+                this.fНаправление = value;
+                //  *** Start programmer edit section *** (НаправлениеГражданина.Направление Set end)
+
+                //  *** End programmer edit section *** (НаправлениеГражданина.Направление Set end)
+            }
+        }
         
         /// <summary>
         /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.

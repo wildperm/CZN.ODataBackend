@@ -33,12 +33,46 @@ namespace IIS.CZN
     public class ЯвкаГражданина : ICSSoft.STORMNET.DataObject
     {
         
+        private string fЯвка;
+        
         private IIS.CZN.КарточкаГражданина fКарточкаГражданина;
         
         //  *** Start programmer edit section *** (ЯвкаГражданина CustomMembers)
 
         //  *** End programmer edit section *** (ЯвкаГражданина CustomMembers)
 
+        
+        /// <summary>
+        /// Явка.
+        /// </summary>
+        //  *** Start programmer edit section *** (ЯвкаГражданина.Явка CustomAttributes)
+
+        //  *** End programmer edit section *** (ЯвкаГражданина.Явка CustomAttributes)
+        [StrLen(255)]
+        public virtual string Явка
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (ЯвкаГражданина.Явка Get start)
+
+                //  *** End programmer edit section *** (ЯвкаГражданина.Явка Get start)
+                string result = this.fЯвка;
+                //  *** Start programmer edit section *** (ЯвкаГражданина.Явка Get end)
+
+                //  *** End programmer edit section *** (ЯвкаГражданина.Явка Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (ЯвкаГражданина.Явка Set start)
+
+                //  *** End programmer edit section *** (ЯвкаГражданина.Явка Set start)
+                this.fЯвка = value;
+                //  *** Start programmer edit section *** (ЯвкаГражданина.Явка Set end)
+
+                //  *** End programmer edit section *** (ЯвкаГражданина.Явка Set end)
+            }
+        }
         
         /// <summary>
         /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.

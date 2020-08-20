@@ -33,12 +33,46 @@ namespace IIS.CZN
     public class ТрудоваяДеятельность : ICSSoft.STORMNET.DataObject
     {
         
+        private string fТрудоваяДеятельность;
+        
         private IIS.CZN.Личность fЛичность;
         
         //  *** Start programmer edit section *** (ТрудоваяДеятельность CustomMembers)
 
         //  *** End programmer edit section *** (ТрудоваяДеятельность CustomMembers)
 
+        
+        /// <summary>
+        /// ТрудоваяДеятельность.
+        /// </summary>
+        //  *** Start programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность CustomAttributes)
+
+        //  *** End programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность CustomAttributes)
+        [StrLen(255)]
+        public virtual string ТрудоваяДеятельность
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Get start)
+
+                //  *** End programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Get start)
+                string result = this.fТрудоваяДеятельность;
+                //  *** Start programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Get end)
+
+                //  *** End programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Set start)
+
+                //  *** End programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Set start)
+                this.fТрудоваяДеятельность = value;
+                //  *** Start programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Set end)
+
+                //  *** End programmer edit section *** (ТрудоваяДеятельность.ТрудоваяДеятельность Set end)
+            }
+        }
         
         /// <summary>
         /// мастеровая ссылка на шапку IIS.CZN.Личность.

@@ -33,12 +33,46 @@ namespace IIS.CZN
     public class ОтметкаГражданина : ICSSoft.STORMNET.DataObject
     {
         
+        private string fОтметка;
+        
         private IIS.CZN.КарточкаГражданина fКарточкаГражданина;
         
         //  *** Start programmer edit section *** (ОтметкаГражданина CustomMembers)
 
         //  *** End programmer edit section *** (ОтметкаГражданина CustomMembers)
 
+        
+        /// <summary>
+        /// Отметка.
+        /// </summary>
+        //  *** Start programmer edit section *** (ОтметкаГражданина.Отметка CustomAttributes)
+
+        //  *** End programmer edit section *** (ОтметкаГражданина.Отметка CustomAttributes)
+        [StrLen(255)]
+        public virtual string Отметка
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (ОтметкаГражданина.Отметка Get start)
+
+                //  *** End programmer edit section *** (ОтметкаГражданина.Отметка Get start)
+                string result = this.fОтметка;
+                //  *** Start programmer edit section *** (ОтметкаГражданина.Отметка Get end)
+
+                //  *** End programmer edit section *** (ОтметкаГражданина.Отметка Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (ОтметкаГражданина.Отметка Set start)
+
+                //  *** End programmer edit section *** (ОтметкаГражданина.Отметка Set start)
+                this.fОтметка = value;
+                //  *** Start programmer edit section *** (ОтметкаГражданина.Отметка Set end)
+
+                //  *** End programmer edit section *** (ОтметкаГражданина.Отметка Set end)
+            }
+        }
         
         /// <summary>
         /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.

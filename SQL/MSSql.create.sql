@@ -6,6 +6,8 @@ CREATE TABLE [ЯвкаГражданина] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Явка] VARCHAR(255)  NULL,
+
 	 [КарточкаГражданина_m0] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
@@ -14,6 +16,8 @@ CREATE TABLE [ЯвкаГражданина] (
 CREATE TABLE [ЗадачаПоГражданину] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Задача] VARCHAR(255)  NULL,
 
 	 [КарточкаГКарточкаГражданинаражданина_m0] UNIQUEIDENTIFIER  NOT NULL,
 
@@ -24,6 +28,8 @@ CREATE TABLE [ОтметкаГражданина] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [Отметка] VARCHAR(255)  NULL,
+
 	 [КарточкаГражданина_m0] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
@@ -32,6 +38,8 @@ CREATE TABLE [ОтметкаГражданина] (
 CREATE TABLE [ТрудоваяДеятельность] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ТрудоваяДеятельность] VARCHAR(255)  NULL,
 
 	 [Личность_m0] UNIQUEIDENTIFIER  NOT NULL,
 
@@ -42,6 +50,8 @@ CREATE TABLE [ТрудоваяКнижка] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
+	 [ТрудоваяКнижка] VARCHAR(255)  NULL,
+
 	 [Личность_m0] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
@@ -50,6 +60,8 @@ CREATE TABLE [ТрудоваяКнижка] (
 CREATE TABLE [НаправлениеГражданина] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Направление] VARCHAR(255)  NULL,
 
 	 [КарточкаГражданина_m0] UNIQUEIDENTIFIER  NOT NULL,
 
