@@ -33,7 +33,7 @@ namespace IIS.CZN
     public class ЯвкаГражданина : ICSSoft.STORMNET.DataObject
     {
         
-        private IIS.CZN.Карточка гражданина fКарточка гражданина;
+        private IIS.CZN.КарточкаГражданина fКарточкаГражданина;
         
         //  *** Start programmer edit section *** (ЯвкаГражданина CustomMembers)
 
@@ -41,35 +41,35 @@ namespace IIS.CZN
 
         
         /// <summary>
-        /// мастеровая ссылка на шапку IIS.CZN.Карточка гражданина.
+        /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.
         /// </summary>
-        //  *** Start programmer edit section *** (ЯвкаГражданина.Карточка гражданина CustomAttributes)
+        //  *** Start programmer edit section *** (ЯвкаГражданина.КарточкаГражданина CustomAttributes)
 
-        //  *** End programmer edit section *** (ЯвкаГражданина.Карточка гражданина CustomAttributes)
+        //  *** End programmer edit section *** (ЯвкаГражданина.КарточкаГражданина CustomAttributes)
         [Agregator()]
         [NotNull()]
-        public virtual IIS.CZN.Карточка гражданина Карточка гражданина
+        public virtual IIS.CZN.КарточкаГражданина КарточкаГражданина
         {
             get
             {
-                //  *** Start programmer edit section *** (ЯвкаГражданина.Карточка гражданина Get start)
+                //  *** Start programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Get start)
 
-                //  *** End programmer edit section *** (ЯвкаГражданина.Карточка гражданина Get start)
-                IIS.CZN.Карточка гражданина result = this.fКарточка гражданина;
-                //  *** Start programmer edit section *** (ЯвкаГражданина.Карточка гражданина Get end)
+                //  *** End programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Get start)
+                IIS.CZN.КарточкаГражданина result = this.fКарточкаГражданина;
+                //  *** Start programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Get end)
 
-                //  *** End programmer edit section *** (ЯвкаГражданина.Карточка гражданина Get end)
+                //  *** End programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (ЯвкаГражданина.Карточка гражданина Set start)
+                //  *** Start programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Set start)
 
-                //  *** End programmer edit section *** (ЯвкаГражданина.Карточка гражданина Set start)
-                this.fКарточка гражданина = value;
-                //  *** Start programmer edit section *** (ЯвкаГражданина.Карточка гражданина Set end)
+                //  *** End programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Set start)
+                this.fКарточкаГражданина = value;
+                //  *** Start programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Set end)
 
-                //  *** End programmer edit section *** (ЯвкаГражданина.Карточка гражданина Set end)
+                //  *** End programmer edit section *** (ЯвкаГражданина.КарточкаГражданина Set end)
             }
         }
         
@@ -115,8 +115,8 @@ namespace IIS.CZN
         /// <summary>
         /// Adds object with type ЯвкаГражданина.
         /// </summary>
-        public DetailArrayOfЯвкаГражданина(IIS.CZN.Карточка гражданина fКарточка гражданина) : 
-                base(typeof(ЯвкаГражданина), ((ICSSoft.STORMNET.DataObject)(fКарточка гражданина)))
+        public DetailArrayOfЯвкаГражданина(IIS.CZN.КарточкаГражданина fКарточкаГражданина) : 
+                base(typeof(ЯвкаГражданина), ((ICSSoft.STORMNET.DataObject)(fКарточкаГражданина)))
         {
         }
         

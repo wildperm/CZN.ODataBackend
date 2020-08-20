@@ -39,7 +39,7 @@ namespace IIS.CZN
         
         private string fСотрудник;
         
-        private IIS.CZN.Карточка гражданина fКарточка гражданина;
+        private IIS.CZN.КарточкаГражданина fКарточкаГражданина;
         
         //  *** Start programmer edit section *** (ПередачаКарточки CustomMembers)
 
@@ -110,35 +110,35 @@ namespace IIS.CZN
         }
         
         /// <summary>
-        /// мастеровая ссылка на шапку IIS.CZN.Карточка гражданина.
+        /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.
         /// </summary>
-        //  *** Start programmer edit section *** (ПередачаКарточки.Карточка гражданина CustomAttributes)
+        //  *** Start programmer edit section *** (ПередачаКарточки.КарточкаГражданина CustomAttributes)
 
-        //  *** End programmer edit section *** (ПередачаКарточки.Карточка гражданина CustomAttributes)
+        //  *** End programmer edit section *** (ПередачаКарточки.КарточкаГражданина CustomAttributes)
         [Agregator()]
         [NotNull()]
-        public virtual IIS.CZN.Карточка гражданина Карточка гражданина
+        public virtual IIS.CZN.КарточкаГражданина КарточкаГражданина
         {
             get
             {
-                //  *** Start programmer edit section *** (ПередачаКарточки.Карточка гражданина Get start)
+                //  *** Start programmer edit section *** (ПередачаКарточки.КарточкаГражданина Get start)
 
-                //  *** End programmer edit section *** (ПередачаКарточки.Карточка гражданина Get start)
-                IIS.CZN.Карточка гражданина result = this.fКарточка гражданина;
-                //  *** Start programmer edit section *** (ПередачаКарточки.Карточка гражданина Get end)
+                //  *** End programmer edit section *** (ПередачаКарточки.КарточкаГражданина Get start)
+                IIS.CZN.КарточкаГражданина result = this.fКарточкаГражданина;
+                //  *** Start programmer edit section *** (ПередачаКарточки.КарточкаГражданина Get end)
 
-                //  *** End programmer edit section *** (ПередачаКарточки.Карточка гражданина Get end)
+                //  *** End programmer edit section *** (ПередачаКарточки.КарточкаГражданина Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (ПередачаКарточки.Карточка гражданина Set start)
+                //  *** Start programmer edit section *** (ПередачаКарточки.КарточкаГражданина Set start)
 
-                //  *** End programmer edit section *** (ПередачаКарточки.Карточка гражданина Set start)
-                this.fКарточка гражданина = value;
-                //  *** Start programmer edit section *** (ПередачаКарточки.Карточка гражданина Set end)
+                //  *** End programmer edit section *** (ПередачаКарточки.КарточкаГражданина Set start)
+                this.fКарточкаГражданина = value;
+                //  *** Start programmer edit section *** (ПередачаКарточки.КарточкаГражданина Set end)
 
-                //  *** End programmer edit section *** (ПередачаКарточки.Карточка гражданина Set end)
+                //  *** End programmer edit section *** (ПередачаКарточки.КарточкаГражданина Set end)
             }
         }
         
@@ -184,8 +184,8 @@ namespace IIS.CZN
         /// <summary>
         /// Adds object with type ПередачаКарточки.
         /// </summary>
-        public DetailArrayOfПередачаКарточки(IIS.CZN.Карточка гражданина fКарточка гражданина) : 
-                base(typeof(ПередачаКарточки), ((ICSSoft.STORMNET.DataObject)(fКарточка гражданина)))
+        public DetailArrayOfПередачаКарточки(IIS.CZN.КарточкаГражданина fКарточкаГражданина) : 
+                base(typeof(ПередачаКарточки), ((ICSSoft.STORMNET.DataObject)(fКарточкаГражданина)))
         {
         }
         

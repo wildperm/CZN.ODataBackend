@@ -33,7 +33,7 @@ namespace IIS.CZN
     public class ЗадачаПоГражданину : ICSSoft.STORMNET.DataObject
     {
         
-        private IIS.CZN.Карточка гражданина fКарточка гражданина;
+        private IIS.CZN.КарточкаГражданина fКарточкаГКарточкаГражданинаражданина;
         
         //  *** Start programmer edit section *** (ЗадачаПоГражданину CustomMembers)
 
@@ -41,35 +41,35 @@ namespace IIS.CZN
 
         
         /// <summary>
-        /// мастеровая ссылка на шапку IIS.CZN.Карточка гражданина.
+        /// мастеровая ссылка на шапку IIS.CZN.КарточкаГражданина.
         /// </summary>
-        //  *** Start programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина CustomAttributes)
+        //  *** Start programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина CustomAttributes)
 
-        //  *** End programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина CustomAttributes)
+        //  *** End programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина CustomAttributes)
         [Agregator()]
         [NotNull()]
-        public virtual IIS.CZN.Карточка гражданина Карточка гражданина
+        public virtual IIS.CZN.КарточкаГражданина КарточкаГКарточкаГражданинаражданина
         {
             get
             {
-                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Get start)
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Get start)
 
-                //  *** End programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Get start)
-                IIS.CZN.Карточка гражданина result = this.fКарточка гражданина;
-                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Get end)
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Get start)
+                IIS.CZN.КарточкаГражданина result = this.fКарточкаГКарточкаГражданинаражданина;
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Get end)
 
-                //  *** End programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Get end)
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Get end)
                 return result;
             }
             set
             {
-                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Set start)
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Set start)
 
-                //  *** End programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Set start)
-                this.fКарточка гражданина = value;
-                //  *** Start programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Set end)
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Set start)
+                this.fКарточкаГКарточкаГражданинаражданина = value;
+                //  *** Start programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Set end)
 
-                //  *** End programmer edit section *** (ЗадачаПоГражданину.Карточка гражданина Set end)
+                //  *** End programmer edit section *** (ЗадачаПоГражданину.КарточкаГКарточкаГражданинаражданина Set end)
             }
         }
         
@@ -115,8 +115,8 @@ namespace IIS.CZN
         /// <summary>
         /// Adds object with type ЗадачаПоГражданину.
         /// </summary>
-        public DetailArrayOfЗадачаПоГражданину(IIS.CZN.Карточка гражданина fКарточка гражданина) : 
-                base(typeof(ЗадачаПоГражданину), ((ICSSoft.STORMNET.DataObject)(fКарточка гражданина)))
+        public DetailArrayOfЗадачаПоГражданину(IIS.CZN.КарточкаГражданина fКарточкаГражданина) : 
+                base(typeof(ЗадачаПоГражданину), ((ICSSoft.STORMNET.DataObject)(fКарточкаГражданина)))
         {
         }
         
